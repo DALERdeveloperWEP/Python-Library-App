@@ -193,10 +193,7 @@ def main():
     Asosiy funksiya - menyuni ko'rsatadi va foydalanuvchi tanloviga qarab 
     yuqoridagi funksiyalarni chaqiradi.
     """
-    library: list[list[str, str, int, bool]] = [
-        ["Javascirpt","undefineddd",1995,False],
-        ["Python","undefinedddd",1999,False]
-    ]  # [title – sarlavha / nom, author – muallif, year – yil, status – holat / maqom]
+    library: list[list[str, str, int, bool]] = []  # [title – sarlavha / nom, author – muallif, year – yil, status – holat / maqom]
 
     manu()
     while True:
